@@ -18,8 +18,17 @@
   -->
 
   <main>
+    <nav>
+      <application name="@mfe/navbar"></application>
+    </nav>
     <route default>
       <application name="@single-spa/welcome"></application>
     </route>
+    <route path="app-react">
+      <application name="@mfe/app-react"></application>
+    </route>
+    <nav>
+      <application name="@mfe/navbar"></application>
+    </nav>
   </main>
 </single-spa-router>
